@@ -34,9 +34,8 @@ Output files:
 - scores.csv - CSV file containing per-sequence pIRS scores (summed across all peptides)
 - figures.html - Visualization of pIRS scores across sequences and peptides
 
-### Download and run locally
+### Install
 
-Installation:
 ```
 git clone ImmunoGeNN
 cd ImmunoGeNN
@@ -44,6 +43,8 @@ unzip data_record.zip
 
 pip install -r requirements.txt
 ```
+
+### Usage
 
 Predicting protein immunogenicity risk scores:
 ```
@@ -58,8 +59,9 @@ python run.py \
     --deimmunize_first_sequence true
 ```
 
-### Docker setup
-Build Docker image:
+### Docker
+
+Or with Docker:
 ```
 docker build -t app-immunogenn .
 ```
