@@ -77,6 +77,7 @@ docker run -v $(pwd)/data:/app/data -it app-immunogenn \
 ![img/runtime.png](img/runtime.png)
 
 ### Citation
+```bib
 @inproceedings{
     hoie2025_immunogenn,
     title={ImmunoGe{NN}: Accelerating Early Immunogenicity Assessment for Generative Design of Biologics},
@@ -85,6 +86,7 @@ docker run -v $(pwd)/data:/app/data -it app-immunogenn \
     year={2025},
     url={https://openreview.net/forum?id=kOJQm9YXnB}
 }
+```
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
