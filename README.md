@@ -86,5 +86,3 @@ docker run -v $(pwd)/data:/app/data -it app-immunogenn \
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
- 
